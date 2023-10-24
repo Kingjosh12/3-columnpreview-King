@@ -1,0 +1,172 @@
+/*body{
+    background-color: hsl(0, 0%, 95%);
+    align-content: center;
+    min-height: 100vh;
+}
+.cont{
+    margin: 70px auto ;
+    display: flex;
+    margin: 120px 200px 80px;
+    line-height: 2;
+}
+.sedans-cont{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 2% 0 0 2%;
+    padding: 30px;
+    text-indent: 2;
+}
+.suvs-cont{
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px;
+}
+.luxury-cont{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 2% 2% 0 ;
+    padding: 30px;
+}
+img{
+    width: 45px;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 13px;
+    font-weight: lighter;
+    font-family: 'Lexend Deca';
+}
+h2{
+    color: hsl(0, 0%, 95%);
+    font-weight: normal;
+    font-family: 'big shoulders display';
+}
+button{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 28px;
+    font-size: 13px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+    font-family: 'lexend Deca'
+}
+.btn1{
+    color: hsl(31, 77%, 52%);
+}
+.btn2{
+    color: hsl(184, 100%, 22%);
+}
+.btn3{
+    color: hsl(179, 100%, 13%);
+}
+button:hover{
+    background-color: #c0e1f8;
+}
+footer{
+    align-content: center;
+    color: black;
+}
+.foot{
+    color: black;
+}
+@media (max-width: 900px) {
+    body{
+        height: 100vh;
+        overflow: hidden;
+        width: 100vw;
+    }
+    .cont{
+        display: grid;
+        margin: 30px auto;
+    }
+} first trail. i tried doing the desktop view before the mobile view then got stucked*/
+body{
+    background-color: hsl(0, 0%, 95%);
+    height: 100vh;
+    margin: 0;
+}
+.cont{
+    margin: 70px 50px 0;
+}
+.sedans-cont{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 3% 3% 0 0;
+    padding: 20px;
+}
+.suvs-cont{
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px;
+}
+.luxury-cont{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 2% 2%;
+    padding: 20px;
+}
+img{
+    width: 45px;
+}
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 13px;
+    font-weight: lighter;
+    font-family: 'Lexend Deca';
+}
+h2{
+    color: hsl(0, 0%, 95%);
+    font-weight: normal;
+    font-family: 'big shoulders display';
+}
+button{
+    background-color: hsl(0, 0%, 95%);
+    border-radius: 28px;
+    font-size: 13px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: none;
+    font-family: 'lexend Deca'
+}
+.btn1{
+    color: hsl(31, 77%, 52%);
+}
+.btn2{
+    color: hsl(184, 100%, 22%);
+}
+.btn3{
+    color: hsl(179, 100%, 13%);
+}
+button:hover{
+    background-color: #c0e1f8;
+}
+.foot{
+    color: black;
+    font-family: 'lexend Deca'
+}
+@media(min-width: 900px) {
+    body{
+        height: 100vh;
+    }
+    .cont{
+        display: flex;
+        margin: 130px 270px 50px;
+        line-height: 2;
+    }
+    .sedans-cont{
+        border-radius: 2% 0 0 2%;
+        padding: 30px;
+    }
+    .suvs-cont{
+        padding: 30px;
+    }
+    .luxury-cont{
+        border-radius: 0 2% 2% 0 ;
+        padding: 30px;
+    }
+    p{
+        font-size: 15px;
+    }   
+    .foot{
+        margin: 300px;
+    }
+}
+@media(min-width: 1440px){
+    body{
+        overflow: hidden;
+    }
+}
